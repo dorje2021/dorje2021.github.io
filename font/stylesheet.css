@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Yagpo Tibetan Uni';
+    src: url('YagpoTibetanUni.woff2') format('woff2'),
+        url('YagpoTibetanUni.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Siddham';
+    src: url('NotoSansSiddham-Regular.woff2') format('woff2'),
+        url('NotoSansSiddham-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Mongolian';
+    src: url('NotoSansMongolian.woff2') format('woff2'),
+        url('NotoSansMongolian.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
