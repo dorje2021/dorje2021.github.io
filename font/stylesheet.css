@@ -1,4 +1,10 @@
 @font-face {
+  font-family: 'Ampersand';
+  src: url(font/NotoSansMongolian.woff2) format('woff2'),
+       url(font/NotoSansMongolian.woff) format('woff');
+  unicode-range: U+1800-185C, U+1880-18AA, U+202F;
+}
+@font-face {
     font-family: 'Yagpo Tibetan Uni';
     src: url('YagpoTibetanUni.woff2') format('woff2'),
         url('YagpoTibetanUni.woff') format('woff');
@@ -21,10 +27,4 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-@font-face {
-  font-family: 'Ampersand';
-  src: url(font/NotoSansMongolian.woff2) format('woff2'),
-       url(font/NotoSansMongolian.woff) format('woff');
-  unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
