@@ -1,5 +1,38 @@
+@font-face {
+    font-family: 'Noto Sans Mongolian';
+    src: url(font/NotoSansMongolian.woff2) format('woff2'),
+         url(font/NotoSansMongolian.woff) format('woff');
+    unicode-range: U+1800-185C, U+1880-18AA, U+202F;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Yagpo Tibetan Uni';
+    src: url('font/YagpoTibetanUni.woff2') format('woff2'),
+        url('font/YagpoTibetanUni.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Siddham';
+    src: url('font/NotoSansSiddham-Regular.woff2') format('woff2'),
+        url('font/NotoSansSiddham-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BhashitaComplexSans';
+    src: url('font/BhashitaComplexSans.woff2') format('woff2'),
+        url('font/BhashitaComplexSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 pre, textarea {
-    font-family: Ampersand, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans;
+    font-family: Noto Sans Mongolian, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans;
     font-size: 15px;
 }
 a:link {color: #000;}
