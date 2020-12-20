@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'ampersand';
-  src: url('font/NotoSansMongolian.woff2') format('woff2'),
-       url('font/NotoSansMongolian.woff') format('woff');
+  src: url(font/NotoSansMongolian.woff2),
+       url(font/NotoSansMongolian.woff);
   unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
 html, pre, textarea {
