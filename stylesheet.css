@@ -4,7 +4,7 @@
        url(font/NotoSansMongolian.woff);
   unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
-html {
+html, pre, textarea {
     font-family: Ampersand, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans;
     font-size: 15px;
 }
