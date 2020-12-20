@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'ampersand';
+  font-family: 'Ampersand';
   src: url(font/NotoSansMongolian.woff2),
        url(font/NotoSansMongolian.woff);
   unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
-html, pre, textarea {
-    font-family: ampersand, monospace, 'Yagpo Tibetan Uni', 'Noto Sans Siddham', 'BhashitaComplexSans';
+html {
+    font-family: Ampersand, monospace, 'Yagpo Tibetan Uni', 'Noto Sans Siddham', 'BhashitaComplexSans';
     font-size: 15px;
 }
 a:link {color: #000;}
