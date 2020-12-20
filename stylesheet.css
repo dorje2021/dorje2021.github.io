@@ -5,7 +5,7 @@
   unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
 html, pre, textarea {
-    font-family: ampersand, monospace, 'Yagpo Tibetan Uni', 'Noto Sans Siddham';
+    font-family: ampersand, monospace, 'Yagpo Tibetan Uni', 'Noto Sans Siddham', 'BhashitaComplexSans';
     font-size: 15px;
 }
 a:link {color: #000;}
