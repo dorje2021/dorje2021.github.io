@@ -30,8 +30,8 @@
          url('font/NotoSansSoyombo-Regular.woff') format('woff');
 }
 textarea, pre {
-    font-family: Noto Sans Mongolian, monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
-    font-size: 15px;
+    font-family: Noto Sans Mongolian, Arial, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
+    font-size: 16px;
 }
 textarea {
     outline: none; 
