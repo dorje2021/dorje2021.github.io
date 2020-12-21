@@ -36,8 +36,8 @@
 @font-face {
   font-family: 'Tharlon';
   font-style: normal;
-  src: url(Tharlon-Regular.woff2) format('woff2'),
-       url(Tharlon-Regular.woff) format('woff');
+  src: url(font/Tharlon-Regular.woff2) format('woff2'),
+       url(font/Tharlon-Regular.woff) format('woff');
 }
 @font-face {
     font-family: 'Noto Sans Soyombo';
