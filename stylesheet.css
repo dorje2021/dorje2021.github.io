@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'CustomConsolas';
     src: local('Consolas');
+         url(font/Consolas.woff2) format('woff2'),
+         url(font/Consolas.woff) format('woff');
     unicode-range: U+0000-058F;
 }
 @font-face {
