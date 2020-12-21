@@ -22,9 +22,10 @@
     font-family: 'Noto Sans Mongolian';
     src: url(font/NotoSansMongolian.woff2) format('woff2'),
          url(font/NotoSansMongolian.woff) format('woff');
+    unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
 pre, textarea {
-    font-family: CustomConsolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, sans-serif;
+    font-family: CustomConsolas, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Noto Sans Mongolian, sans-serif;
     font-size: 16px;
 }
 a:link {color: #000;}
