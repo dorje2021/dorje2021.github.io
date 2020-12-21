@@ -6,28 +6,28 @@
 }
 @font-face {
     font-family: 'Yagpo Tibetan Uni';
-    src: url('font/YagpoTibetanUni.woff2') format('woff2'),
-         url('font/YagpoTibetanUni.woff') format('woff');
+    src: url(font/YagpoTibetanUni.woff2) format('woff2'),
+         url(font/YagpoTibetanUni.woff) format('woff');
 }
 @font-face {
     font-family: 'Noto Sans Siddham';
-    src: url('font/NotoSansSiddham-Regular.woff2') format('woff2'),
-         url('font/NotoSansSiddham-Regular.woff') format('woff');
+    src: url(font/NotoSansSiddham-Regular.woff2) format('woff2'),
+         url(font/NotoSansSiddham-Regular.woff) format('woff');
 }
 @font-face {
     font-family: 'Eczar';
-    src: url('font/Eczar-Regular.woff2') format('woff2'),
-         url('font/Eczar-Regular.woff') format('woff');
+    src: url(font/Eczar-Regular.woff2) format('woff2'),
+         url(font/Eczar-Regular.woff) format('woff');
 }
 @font-face {
     font-family: 'BhashitaComplexSans';
-    src: url('font/BhashitaComplexSans.woff2') format('woff2'),
-         url('font/BhashitaComplexSans.woff') format('woff');
+    src: url(font/BhashitaComplexSans.woff2) format('woff2'),
+         url(font/BhashitaComplexSans.woff) format('woff');
 }
 @font-face {
     font-family: 'Noto Sans Soyombo';
-    src: url('font/NotoSansSoyombo-Regular.woff2') format('woff2'),
-         url('font/NotoSansSoyombo-Regular.woff') format('woff');
+    src: url(font/NotoSansSoyombo-Regular.woff2) format('woff2'),
+         url(font/NotoSansSoyombo-Regular.woff) format('woff');
 }
 textarea, pre {
     font-family: Noto Sans Mongolian, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
