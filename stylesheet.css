@@ -21,8 +21,8 @@
 }
 @font-face {
     font-family: 'Eczar';
-    src: url('fonts/Eczar-Regular.woff2') format('woff2'),
-         url('fonts/Eczar-Regular.woff') format('woff');
+    src: url('font/Eczar-Regular.woff2') format('woff2'),
+         url('font/Eczar-Regular.woff') format('woff');
 }
 @font-face {
     font-family: 'BhashitaComplexSans';
