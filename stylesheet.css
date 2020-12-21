@@ -4,15 +4,15 @@
   unicode-range: U+0000-058F;
 }
 @font-face {
-    font-family: 'Yagpo Tibetan Uni';
-    src: url('font/YagpoTibetanUni.woff2') format('woff2'),
-         url('font/YagpoTibetanUni.woff') format('woff');
-}
-@font-face {
     font-family: 'Noto Sans Mongolian';
     src: url(font/NotoSansMongolian.woff2) format('woff2'),
          url(font/NotoSansMongolian.woff) format('woff');
     unicode-range: U+1800-185C, U+1880-18AA, U+202F;
+}
+@font-face {
+    font-family: 'Yagpo Tibetan Uni';
+    src: url('font/YagpoTibetanUni.woff2') format('woff2'),
+         url('font/YagpoTibetanUni.woff') format('woff');
 }
 @font-face {
     font-family: 'Noto Sans Siddham';
@@ -48,7 +48,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: CustomConsolas, Yagpo Tibetan Uni, Noto Sans Mongolian, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
+    font-family: CustomConsolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
 }
 textarea {
