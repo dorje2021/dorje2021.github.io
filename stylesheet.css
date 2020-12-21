@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'CustomConsolas';
+  font-family: 'Monospace';
   src: local('Consolas');
   unicode-range: U+0000-058F;
 }
@@ -41,14 +41,13 @@
 }
 @font-face {
     font-family: 'Noto Sans Soyombo';
-    src: url('fonts/NotoSansSoyombo-Regular.woff2') format('woff2'),
-        url('fonts/NotoSansSoyombo-Regular.woff') format('woff');
+    src: url('fonts/NotoSansSoyombo-Regular.otf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 textarea, pre {
-    font-family: CustomConsolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
+    font-family: Monospace, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
 }
 textarea {
