@@ -47,15 +47,9 @@
     font-style: normal;
     font-display: swap;
 }
-pre, textarea {
+textarea, pre {
     font-family: CustomConsolas, Yagpo Tibetan Uni, Noto Sans Mongolian, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
-}
-a:link {color: #000;}
-a:visited {color: #000;}
-pre {
-    white-space: pre-wrap; 
-    word-wrap: break-word;
 }
 textarea {
     outline: none; 
@@ -65,3 +59,9 @@ textarea {
     resize: none;
     padding: 12px 8px;
 }
+pre {
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+}
+a:link {color: #000;}
+a:visited {color: #000;}
