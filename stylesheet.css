@@ -1,3 +1,4 @@
+@import url(https://cdn.sstatic.net/Shared/stacks.css);
 @font-face {
     font-family: 'Noto Sans Mongolian';
     src: url(font/NotoSansMongolian.woff2) format('woff2'),
@@ -30,7 +31,7 @@
          url(font/NotoSansSoyombo-Regular.woff) format('woff');
 }
 textarea, pre {
-    font-family: Noto Sans Mongolian, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
+    font-family: Noto Sans Mongolian, Consolas, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
 }
 textarea {
