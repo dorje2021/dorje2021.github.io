@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Monospace Consolas';
+    font-family: 'CustomConsolas';
     src: local('Consolas');
     font-weight: normal;
     font-style: normal;
@@ -65,7 +65,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Monospace Consolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
+    font-family: CustomConsolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
 }
 textarea {
