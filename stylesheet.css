@@ -1,39 +1,31 @@
 @font-face {
-    font-family: 'Noto Sans Mongolian';
-    src: url(font/NotoSansMongolian.woff2) format('woff2'),
-         url(font/NotoSansMongolian.woff) format('woff');
-    unicode-range: U+1800-185C, U+1880-18AA, U+202F;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'CustomConsolas';
+  src: local('Consolas');
+  unicode-range: U+0000-058F;
 }
 @font-face {
     font-family: 'Yagpo Tibetan Uni';
     src: url('font/YagpoTibetanUni.woff2') format('woff2'),
          url('font/YagpoTibetanUni.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Noto Sans Siddham';
     src: url('font/NotoSansSiddham-Regular.woff2') format('woff2'),
          url('font/NotoSansSiddham-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'BhashitaComplexSans';
     src: url('font/BhashitaComplexSans.woff2') format('woff2'),
          url('font/BhashitaComplexSans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Mongolian';
+    src: url(font/NotoSansMongolian.woff2) format('woff2'),
+         url(font/NotoSansMongolian.woff) format('woff');
 }
 pre, textarea {
-    font-family: Noto Sans Mongolian, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans;
-    font-size: 17px;
+    font-family: CustomConsolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, sans-serif;
+    font-size: 16px;
 }
 a:link {color: #000;}
 a:visited {color: #000;}
