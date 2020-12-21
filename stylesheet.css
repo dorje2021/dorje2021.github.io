@@ -1,13 +1,19 @@
 @font-face {
-  font-family: 'Monospace';
-  src: local('Consolas');
-  unicode-range: U+0000-058F;
+    font-family: 'Monospace Consolas';
+    src: local('Consolas');
+    unicode-range: U+0000-058F;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Noto Sans Mongolian';
     src: url(font/NotoSansMongolian.woff2) format('woff2'),
          url(font/NotoSansMongolian.woff) format('woff');
     unicode-range: U+1800-185C, U+1880-18AA, U+202F;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Yagpo Tibetan Uni';
@@ -47,7 +53,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Monospace, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
+    font-family: Monospace Consolas, Noto Sans Mongolian, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Tharlon, Noto Sans Soyombo, sans-serif;
     font-size: 16px;
 }
 textarea {
