@@ -36,7 +36,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Noto Sans Mongolian, Consolas, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
+    font-family: Noto Sans Mongolian, Consolas, sans-serif, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
     font-size: 16px;
 }
 textarea {
