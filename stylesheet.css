@@ -24,13 +24,8 @@
     src: url(font/BhashitaComplexSans.woff2) format('woff2'),
          url(font/BhashitaComplexSans.woff) format('woff');
 }
-@font-face {
-    font-family: 'Noto Sans Soyombo';
-    src: url(font/NotoSansSoyombo-Regular.woff2) format('woff2'),
-         url(font/NotoSansSoyombo-Regular.woff) format('woff');
-}
 textarea, pre {
-    font-family: Noto Sans Mongolian, Consolas, Times, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, Noto Sans Soyombo, sans-serif;
+    font-family: Noto Sans Mongolian, Consolas, Times, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
     font-size: 16px;
 }
 textarea {
