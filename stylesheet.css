@@ -5,9 +5,9 @@
     unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
 @font-face {
-    font-family: 'Noto Sans Mono';
-    src: url('font/NotoSansMono-Regular.woff2') format('woff2'),
-        url('font/NotoSansMono-Regular.woff') format('woff');
+    font-family: 'Noto Sans Mono Med';
+    src: url('font/NotoSansMono-Medium.woff2') format('woff2'),
+        url('font/NotoSansMono-Medium.woff') format('woff');
     font-weight: 500;
     font-display: swap;
 }
@@ -36,7 +36,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Noto Sans Mongolian, Noto Sans Mono, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
+    font-family: Noto Sans Mongolian, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
     font-size: 16px;
 }
 textarea {
