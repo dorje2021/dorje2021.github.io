@@ -24,19 +24,13 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Eczar';
-    src: url(font/Eczar-Regular.woff2) format('woff2'),
-         url(font/Eczar-Regular.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
     font-family: 'BhashitaComplexSans';
     src: url(font/BhashitaComplexSans.woff2) format('woff2'),
          url(font/BhashitaComplexSans.woff) format('woff');
     font-display: swap;
 }
 textarea, pre {
-    font-family: Noto Sans Mongolian, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Eczar, BhashitaComplexSans, sans-serif;
+    font-family: Noto Sans Mongolian, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, sans-serif;
     font-size: 16px;
 }
 textarea {
@@ -47,6 +41,7 @@ textarea {
     resize: none;
     padding: 12px 8px;
     line-height: 1.0;
+    line-height: 1.7;
 }
 pre {
     white-space: pre-wrap; 
