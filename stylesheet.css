@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Noto Sans Mongolian';
-    src: url(font/NotoSansMongolian.woff2) format('woff2');
+    font-family: 'Onon Sonin Sans';
+    src: url(font/OnonSoninSans.woff) format('woff');
     unicode-range: U+1800-185C, U+1880-18AA, U+202F;
 }
 @font-face {
