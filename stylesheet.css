@@ -29,8 +29,13 @@
     src: url(font/Tharlon-Regular.woff2) format('woff2');
     font-display: swap;
 }
+@font-face {
+    font-family: 'Odor Mean Chey';
+    src: url('font/OdorMeanChey.woff2') format('woff2');
+    font-display: swap;
+}
 textarea, pre {
-    font-family: Onon Sonin Sans, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Tharlon, sans-serif;
+    font-family: Onon Sonin Sans, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Tharlon, Odor Mean Chey, sans-serif;
     font-size: 16px;
 }
 textarea {
