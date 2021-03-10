@@ -21,7 +21,7 @@
 }
 @font-face {
     font-family: 'BhashitaComplexSans';
-    src: url(font/BhashitaComplexSans.woff2) format('woff2');
+    src: url(font/BhashitaComplexSans.ttf) format('truetype');
     font-display: swap;
 }
 @font-face {
