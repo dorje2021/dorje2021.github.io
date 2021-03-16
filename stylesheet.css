@@ -20,8 +20,8 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'BhashitaComplexSans';
-    src: url(font/BhashitaComplexSans.ttf) format('truetype');
+    font-family: 'Noto Sans Sinhala';
+    src: url(font/NotoSansSinhala-Regular.woff) format('woff');
     font-display: swap;
 }
 @font-face {
@@ -35,7 +35,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Onon Sonin Sans, Consolas, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Tharlon, Odor Mean Chey, sans-serif;
+    font-family: Onon Sonin Sans, Consolas, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, Noto Sans Sinhala, Tharlon, Odor Mean Chey, sans-serif;
     font-size: 16px;
 }
 textarea {
