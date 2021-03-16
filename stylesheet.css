@@ -35,7 +35,7 @@
     font-display: swap;
 }
 textarea, pre {
-    font-family: Onon Sonin Sans, Noto Sans Mono Med, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Tharlon, Odor Mean Chey, sans-serif;
+    font-family: Onon Sonin Sans, Consolas, Monospace, Yagpo Tibetan Uni, Noto Sans Siddham, BhashitaComplexSans, Tharlon, Odor Mean Chey, sans-serif;
     font-size: 16px;
 }
 textarea {
