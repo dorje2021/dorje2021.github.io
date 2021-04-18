@@ -33,8 +33,13 @@
     src: url(font/Tharlon-Regular.woff2) format('woff2');
     font-display: swap;
 }
+@font-face {
+    font-family: 'Kaiti';
+    src: url(font/kaiti.ttf);
+    font-display: swap;
+}
 textarea, pre {
-    font-family: Onon Sonin Sans, Consolas, Monospace, Yagpo Tibetan Uni, Noto Sans Devanagari, Noto Sans Siddham, Noto Sans Sinhala, Tharlon, sans-serif;
+    font-family: Onon Sonin Sans, Consolas, Monospace, Yagpo Tibetan Uni, Noto Sans Devanagari, Noto Sans Siddham, Noto Sans Sinhala, Tharlon, Kaiti, sans-serif;
     font-size: 16px;
 }
 textarea {
